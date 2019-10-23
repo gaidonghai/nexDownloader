@@ -4,7 +4,7 @@
   "description": "Reliable and easy url download",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "nex-downloader-tester.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/gaidonghai/nexDownloader/issues"
   },
-  "homepage": "https://github.com/gaidonghai/nexDownloader#readme"
+  "homepage": "https://github.com/gaidonghai/nexDownloader#readme",
+  "dependencies": {
+    "nexfs": "^0.1.1",
+    "nexrequest": "^1.0.3",
+    "nexsleeper": "^1.0.5"
+  }
 }

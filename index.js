@@ -1,9 +1,9 @@
 const path = require('path');
 const fs = require('fs');
 
-const NexRequest = require('./nex-request');
-const NexFs = require('./nex-fs');
-const NexSleeper = require('./nex-sleeper');
+const NexRequest = require('nexrequest');
+const NexFs = require('nexfs');
+const NexSleeper = require('nexsleeper');
 
 //Helpers
 class NexDownloader {
